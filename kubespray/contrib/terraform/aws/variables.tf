@@ -25,7 +25,7 @@ data "aws_ami" "distro" {
 
   filter {
     name   = "name"
-    values = ["debian-10-amd64-*"]
+    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
   }
 
   filter {
@@ -33,7 +33,7 @@ data "aws_ami" "distro" {
     values = ["hvm"]
   }
 
-  owners = ["136693071363"] # Debian-10
+  owners = ["099720109477"] # Canonical
 }
 
 //AWS VPC Variables
