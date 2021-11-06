@@ -1,10 +1,13 @@
 #Global Vars
 aws_cluster_name = "k8s-diploma"
 
+#Set domain which look at cluster ELB
+project_domain = "diploma.ivanadminekb.ru"
+
 #VPC Vars
 aws_vpc_cidr_block       = "10.250.192.0/18"
-aws_cidr_subnets_private = ["10.250.192.0/20"]
-aws_cidr_subnets_public  = ["10.250.224.0/20"]
+aws_cidr_subnets_private = ["10.250.192.0/24","10.250.193.0/24"]
+aws_cidr_subnets_public  = ["10.250.224.0/24","10.250.225.0/24"]
 
 # single AZ deployment
 #aws_cidr_subnets_private = ["10.250.192.0/20"]

@@ -11,6 +11,7 @@ temp
 *.tfstate.backup
 .terraform/
 contrib/terraform/aws/credentials.tfvars
+contrib/terraform/aws/credentials.auto.tfvars
 /key/*
 /ssh-bastion.conf
 **/*.sw[pon]

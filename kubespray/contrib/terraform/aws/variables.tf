@@ -20,6 +20,10 @@ variable "aws_cluster_name" {
   description = "Name of AWS Cluster"
 }
 
+variable "project_domain" {
+  description = "Domain for call projects in AWS Cluster"
+}
+
 data "aws_ami" "distro" {
   most_recent = true
 
