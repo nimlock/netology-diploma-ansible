@@ -21,6 +21,7 @@ plugins/mitogen
 
 # Ansible inventory
 inventory/*
+!inventory/hosts
 !inventory/local
 !inventory/sample
 inventory/*/artifacts/
