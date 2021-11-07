@@ -3,6 +3,7 @@ aws_cluster_name = "k8s-diploma"
 
 #Set domain which look at cluster ELB
 project_domain = "diploma.ivanadminekb.ru"
+k8s_api_subdomain = "k8s-api"
 
 #VPC Vars
 aws_vpc_cidr_block       = "10.250.192.0/18"

@@ -24,6 +24,10 @@ variable "project_domain" {
   description = "Domain for call projects in AWS Cluster"
 }
 
+variable "k8s_api_subdomain" {
+  description = "Subdomain for call Cluster API"
+}
+
 data "aws_ami" "distro" {
   most_recent = true
 
