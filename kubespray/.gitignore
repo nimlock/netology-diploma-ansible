@@ -13,7 +13,7 @@ temp
 contrib/terraform/aws/credentials.tfvars
 contrib/terraform/aws/credentials.auto.tfvars
 /key/*
-/ssh-bastion.conf
+!/ssh-bastion.conf
 **/*.sw[pon]
 *~
 vagrant/
